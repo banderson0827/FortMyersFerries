@@ -1,0 +1,3 @@
+C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\FortMyersFerries.dir/objects.a
+C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\ar.exe qc CMakeFiles\FortMyersFerries.dir/objects.a @CMakeFiles\FortMyersFerries.dir\objects1
+C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\FortMyersFerries.dir/objects.a -Wl,--no-whole-archive -o FortMyersFerries.exe -Wl,--out-implib,libFortMyersFerries.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FortMyersFerries.dir\linkLibs.rsp

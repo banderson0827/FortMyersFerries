@@ -1,0 +1,9 @@
+{
+  "name" : "fortmyersferries",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "b619a233fbf7b2c9765fb4458f3ecb05bd3166e3",
+  "dependencies" : [ {
+    "name" : "openssl",
+    "version>=" : "3.1.0#1"
+  } ]
+}
