@@ -14,12 +14,17 @@
 		"commands" : 
 		[
 			"_add_executable",
-			"add_executable"
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"_find_package",
+			"find_package"
 		],
 		"files" : 
 		[
 			"C:/Users/bande/.clion-vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake",
-			"CMakeLists.txt"
+			"CMakeLists.txt",
+			"C:/Users/bande/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenSSL.cmake"
 		],
 		"nodes" : 
 		[
@@ -37,6 +42,34 @@
 				"file" : 0,
 				"line" : 591,
 				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 852,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 686,
+				"parent" : 6
 			}
 		]
 	},
@@ -47,6 +80,14 @@
 			[
 				{
 					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
 				}
 			],
 			"language" : "CXX",
@@ -79,6 +120,14 @@
 					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				}
+			],
 			"language" : "C",
 			"sourceIndexes" : 
 			[
@@ -98,6 +147,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"C:\\Program Files\\OpenSSL-Win64\\lib\\libssl.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "\"C:\\Program Files\\OpenSSL-Win64\\lib\\libcrypto.lib\"",
+				"role" : "libraries"
 			},
 			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",

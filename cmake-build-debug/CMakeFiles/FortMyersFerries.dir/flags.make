@@ -5,13 +5,13 @@
 # compile CXX with C:/Users/bande/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.174/bin/mingw/bin/g++.exe
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = @CMakeFiles/FortMyersFerries.dir/includes_C.rsp
 
 C_FLAGS = -g -fdiagnostics-color=always
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g -fdiagnostics-color=always
 

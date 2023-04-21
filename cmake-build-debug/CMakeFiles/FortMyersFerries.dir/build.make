@@ -69,6 +69,7 @@ include CMakeFiles/FortMyersFerries.dir/progress.make
 include CMakeFiles/FortMyersFerries.dir/flags.make
 
 CMakeFiles/FortMyersFerries.dir/main.cpp.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/main.cpp.obj: CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 CMakeFiles/FortMyersFerries.dir/main.cpp.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/main.cpp
 CMakeFiles/FortMyersFerries.dir/main.cpp.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FortMyersFerries.dir/main.cpp.obj"
@@ -83,6 +84,7 @@ CMakeFiles/FortMyersFerries.dir/main.cpp.s: cmake_force
 	C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bande\Documents\GitHub\FortMyersFerries\main.cpp -o CMakeFiles\FortMyersFerries.dir\main.cpp.s
 
 CMakeFiles/FortMyersFerries.dir/Account.cpp.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/Account.cpp.obj: CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 CMakeFiles/FortMyersFerries.dir/Account.cpp.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/Account.cpp
 CMakeFiles/FortMyersFerries.dir/Account.cpp.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FortMyersFerries.dir/Account.cpp.obj"
@@ -97,6 +99,7 @@ CMakeFiles/FortMyersFerries.dir/Account.cpp.s: cmake_force
 	C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bande\Documents\GitHub\FortMyersFerries\Account.cpp -o CMakeFiles\FortMyersFerries.dir\Account.cpp.s
 
 CMakeFiles/FortMyersFerries.dir/AdminAccount.cpp.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/AdminAccount.cpp.obj: CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 CMakeFiles/FortMyersFerries.dir/AdminAccount.cpp.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/AdminAccount.cpp
 CMakeFiles/FortMyersFerries.dir/AdminAccount.cpp.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FortMyersFerries.dir/AdminAccount.cpp.obj"
@@ -111,6 +114,7 @@ CMakeFiles/FortMyersFerries.dir/AdminAccount.cpp.s: cmake_force
 	C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bande\Documents\GitHub\FortMyersFerries\AdminAccount.cpp -o CMakeFiles\FortMyersFerries.dir\AdminAccount.cpp.s
 
 CMakeFiles/FortMyersFerries.dir/CurrentFerriesDisplay.cpp.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/CurrentFerriesDisplay.cpp.obj: CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 CMakeFiles/FortMyersFerries.dir/CurrentFerriesDisplay.cpp.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/CurrentFerriesDisplay.cpp
 CMakeFiles/FortMyersFerries.dir/CurrentFerriesDisplay.cpp.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FortMyersFerries.dir/CurrentFerriesDisplay.cpp.obj"
@@ -125,6 +129,7 @@ CMakeFiles/FortMyersFerries.dir/CurrentFerriesDisplay.cpp.s: cmake_force
 	C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bande\Documents\GitHub\FortMyersFerries\CurrentFerriesDisplay.cpp -o CMakeFiles\FortMyersFerries.dir\CurrentFerriesDisplay.cpp.s
 
 CMakeFiles/FortMyersFerries.dir/DatabaseConnection.cpp.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/DatabaseConnection.cpp.obj: CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 CMakeFiles/FortMyersFerries.dir/DatabaseConnection.cpp.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/DatabaseConnection.cpp
 CMakeFiles/FortMyersFerries.dir/DatabaseConnection.cpp.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FortMyersFerries.dir/DatabaseConnection.cpp.obj"
@@ -139,6 +144,7 @@ CMakeFiles/FortMyersFerries.dir/DatabaseConnection.cpp.s: cmake_force
 	C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bande\Documents\GitHub\FortMyersFerries\DatabaseConnection.cpp -o CMakeFiles\FortMyersFerries.dir\DatabaseConnection.cpp.s
 
 CMakeFiles/FortMyersFerries.dir/Ferry.cpp.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/Ferry.cpp.obj: CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 CMakeFiles/FortMyersFerries.dir/Ferry.cpp.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/Ferry.cpp
 CMakeFiles/FortMyersFerries.dir/Ferry.cpp.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FortMyersFerries.dir/Ferry.cpp.obj"
@@ -153,6 +159,7 @@ CMakeFiles/FortMyersFerries.dir/Ferry.cpp.s: cmake_force
 	C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bande\Documents\GitHub\FortMyersFerries\Ferry.cpp -o CMakeFiles\FortMyersFerries.dir\Ferry.cpp.s
 
 CMakeFiles/FortMyersFerries.dir/FerryData.cpp.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/FerryData.cpp.obj: CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 CMakeFiles/FortMyersFerries.dir/FerryData.cpp.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/FerryData.cpp
 CMakeFiles/FortMyersFerries.dir/FerryData.cpp.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FortMyersFerries.dir/FerryData.cpp.obj"
@@ -167,6 +174,7 @@ CMakeFiles/FortMyersFerries.dir/FerryData.cpp.s: cmake_force
 	C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bande\Documents\GitHub\FortMyersFerries\FerryData.cpp -o CMakeFiles\FortMyersFerries.dir\FerryData.cpp.s
 
 CMakeFiles/FortMyersFerries.dir/GuestAccount.cpp.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/GuestAccount.cpp.obj: CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 CMakeFiles/FortMyersFerries.dir/GuestAccount.cpp.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/GuestAccount.cpp
 CMakeFiles/FortMyersFerries.dir/GuestAccount.cpp.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FortMyersFerries.dir/GuestAccount.cpp.obj"
@@ -181,6 +189,7 @@ CMakeFiles/FortMyersFerries.dir/GuestAccount.cpp.s: cmake_force
 	C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bande\Documents\GitHub\FortMyersFerries\GuestAccount.cpp -o CMakeFiles\FortMyersFerries.dir\GuestAccount.cpp.s
 
 CMakeFiles/FortMyersFerries.dir/Reservation.cpp.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/Reservation.cpp.obj: CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 CMakeFiles/FortMyersFerries.dir/Reservation.cpp.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/Reservation.cpp
 CMakeFiles/FortMyersFerries.dir/Reservation.cpp.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FortMyersFerries.dir/Reservation.cpp.obj"
@@ -195,6 +204,7 @@ CMakeFiles/FortMyersFerries.dir/Reservation.cpp.s: cmake_force
 	C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bande\Documents\GitHub\FortMyersFerries\Reservation.cpp -o CMakeFiles\FortMyersFerries.dir\Reservation.cpp.s
 
 CMakeFiles/FortMyersFerries.dir/sqlite3.c.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/sqlite3.c.obj: CMakeFiles/FortMyersFerries.dir/includes_C.rsp
 CMakeFiles/FortMyersFerries.dir/sqlite3.c.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/sqlite3.c
 CMakeFiles/FortMyersFerries.dir/sqlite3.c.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/FortMyersFerries.dir/sqlite3.c.obj"
@@ -209,6 +219,7 @@ CMakeFiles/FortMyersFerries.dir/sqlite3.c.s: cmake_force
 	C:\Users\bande\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.174\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\bande\Documents\GitHub\FortMyersFerries\sqlite3.c -o CMakeFiles\FortMyersFerries.dir\sqlite3.c.s
 
 CMakeFiles/FortMyersFerries.dir/UserAccount.cpp.obj: CMakeFiles/FortMyersFerries.dir/flags.make
+CMakeFiles/FortMyersFerries.dir/UserAccount.cpp.obj: CMakeFiles/FortMyersFerries.dir/includes_CXX.rsp
 CMakeFiles/FortMyersFerries.dir/UserAccount.cpp.obj: C:/Users/bande/Documents/GitHub/FortMyersFerries/UserAccount.cpp
 CMakeFiles/FortMyersFerries.dir/UserAccount.cpp.obj: CMakeFiles/FortMyersFerries.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bande\Documents\GitHub\FortMyersFerries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FortMyersFerries.dir/UserAccount.cpp.obj"
@@ -251,6 +262,8 @@ FortMyersFerries.exe: CMakeFiles/FortMyersFerries.dir/Reservation.cpp.obj
 FortMyersFerries.exe: CMakeFiles/FortMyersFerries.dir/sqlite3.c.obj
 FortMyersFerries.exe: CMakeFiles/FortMyersFerries.dir/UserAccount.cpp.obj
 FortMyersFerries.exe: CMakeFiles/FortMyersFerries.dir/build.make
+FortMyersFerries.exe: C:/Program\ Files/OpenSSL-Win64/lib/libssl.lib
+FortMyersFerries.exe: C:/Program\ Files/OpenSSL-Win64/lib/libcrypto.lib
 FortMyersFerries.exe: CMakeFiles/FortMyersFerries.dir/linkLibs.rsp
 FortMyersFerries.exe: CMakeFiles/FortMyersFerries.dir/objects1
 FortMyersFerries.exe: CMakeFiles/FortMyersFerries.dir/link.txt

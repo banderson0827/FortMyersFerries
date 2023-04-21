@@ -168,6 +168,21 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Users/bande/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/bande/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenSSL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/bande/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/bande/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.174/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

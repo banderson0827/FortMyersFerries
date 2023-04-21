@@ -259,6 +259,15 @@ FortMyersFerries_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 FortMyersFerries_SOURCE_DIR:STATIC=C:/Users/bande/Documents/GitHub/FortMyersFerries
 
+//Path to a library.
+LIB_EAY:FILEPATH=C:/Program Files/OpenSSL-Win64/lib/libcrypto.lib
+
+//Path to a file.
+OPENSSL_INCLUDE_DIR:PATH=C:/Program Files/OpenSSL-Win64/include
+
+//Path to a library.
+SSL_EAY:FILEPATH=C:/Program Files/OpenSSL-Win64/lib/libssl.lib
+
 //Automatically copy dependencies into the output directory for
 // executables.
 VCPKG_APPLOCAL_DEPS:BOOL=ON
@@ -478,6 +487,14 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TOOLCHAIN_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding OpenSSL
+FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[C:/Program Files/OpenSSL-Win64/lib/libcrypto.lib][C:/Program Files/OpenSSL-Win64/include][c ][v3.1.0()]
+//ADVANCED property for variable: LIB_EAY
+LIB_EAY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENSSL_INCLUDE_DIR
+OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SSL_EAY
+SSL_EAY-ADVANCED:INTERNAL=1
 //Install the dependencies listed in your manifest:
 //\n    If this is off, you will have to manually install your dependencies.
 //\n    See https://github.com/microsoft/vcpkg/tree/master/docs/specifications/manifests.md
