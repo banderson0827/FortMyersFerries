@@ -68,9 +68,9 @@ jobs:
 
     - run: |
          echo "Run, Build Application using script"
-         ./CMakeLists.txt")")
+         ./CMakeLists.txt
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
       with:
-        category: "/language:${{matrix.language}}"
+        category: "/language:${{cpp}}"
