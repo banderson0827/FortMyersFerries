@@ -2,13 +2,11 @@
 
 ## Supported Versions
 
-All versions currently supported.
+This project is currently under development and no stable release has been made yet. Once a stable release is made, we will provide support and security updates for the latest stable release.
 
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.x     | :white_check_mark: |
-
-This project is currently under development and no stable release has been made yet. Once a stable release is made, we will provide support and security updates for the latest stable release.
 
 
 ## Reporting a Vulnerability
