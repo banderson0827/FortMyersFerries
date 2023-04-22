@@ -18,10 +18,10 @@ public:
 	DatabaseConnection() {};
 	DatabaseConnection(const char* s);
 	virtual ~DatabaseConnection();
-	static int createTable(const char* s);
-	static int deleteData(const char* s);
-	static int insertData(const char* s);
-	static int updateData(const char* s);
-	static int selectData(const char* s);
+	static int createTable(const char* s, std::string sql);
+	static int deleteData(const char* s, std::string sql);
+	static int insertData(const char* s, std::string sql);
+	static int updateData(const char* s, std::string sql);
+	static int selectData(const char* s, std::string sql);
 	static int callback(void* NotUsed, int argc, char** argv, char** azColName);
 };

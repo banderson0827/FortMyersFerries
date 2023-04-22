@@ -2,12 +2,6 @@
 
 
 
-using namespace std;
-
-
-
-
-
 
 // If DB exists, opens DB. If DB does not exist, creates DB.
 DatabaseConnection::DatabaseConnection(const char* s) {
@@ -34,19 +28,11 @@ DatabaseConnection::~DatabaseConnection() {
 
 
 
-int DatabaseConnection::createTable(const char* s) {
+int DatabaseConnection::createTable(const char* s, std::string sql) {
 
 	sqlite3* DB;
 	char* messageError;
 
-	string sql = "CREATE TABLE IF NOT EXISTS FERRIES("
-		"ID INTEGER PRIMARY KEY AUTOINCREMENT, "
-		"PRICE				  DOUB NOT NULL, "
-		"DURATION_MINUTES     INT NOT NULL, "
-		"DATE				  CHAR(10) NOT NULL, "
-		"TIME				  CHAR(7) NOT NULL, "
-		"AVAILABLE_SEATS      INT NOT NULL, "
-		"TOTAL_SEATS		  INT NOT NULL); ";
 
 	try
 	{
@@ -55,122 +41,122 @@ int DatabaseConnection::createTable(const char* s) {
 		/* An open database, SQL to be evaluated, Callback function, 1st argument to callback, Error msg written here */
 		exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &messageError);
 		if (exit != SQLITE_OK) {
-			cerr << "Error in createTable function." << endl;
+			std::cerr << "Error in createTable function." << std::endl;
 			sqlite3_free(messageError);
 		}
 		else
-			cout << "Table created Successfully" << endl;
+			std::cout << "Table created Successfully" << std::endl;
 		sqlite3_close(DB);
 	}
-	catch (const exception& e)
+	catch (const std::exception& e)
 	{
-		cerr << e.what();
+		std::cerr << e.what();
 	}
 
 	return 0;
-}
+
+} // createTable
 
 
 
 
 
 
-int DatabaseConnection::insertData(const char* s) {
+int DatabaseConnection::insertData(const char* s, std::string sql) {
 	sqlite3* DB;
 	char* messageError;
 
-	string sql("INSERT INTO FERRIES (PRICE, DURATION_MINUTES, DATE, TIME, AVAILABLE_SEATS, TOTAL_SEATS) VALUES(45.00, 120, '01/12/2023', '04:30PM', 80, 100);"
-		"INSERT INTO FERRIES (PRICE, DURATION_MINUTES, DATE, TIME, AVAILABLE_SEATS, TOTAL_SEATS) VALUES(30.00, 45, '01/23/2023', '01:15PM', 95, 120);"
-		"INSERT INTO FERRIES (PRICE, DURATION_MINUTES, DATE, TIME, AVAILABLE_SEATS, TOTAL_SEATS) VALUES(50.00, 120, '02/07/2023', '11:30AM', 90, 100);"
-		"INSERT INTO FERRIES (PRICE, DURATION_MINUTES, DATE, TIME, AVAILABLE_SEATS, TOTAL_SEATS) VALUES(65.00, 180, '02/21/2023', '02:00PM', 50, 75);");
+
 
 	int exit = sqlite3_open(s, &DB);
 	/* An open database, SQL to be evaluated, Callback function, 1st argument to callback, Error msg written here */
 	exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &messageError);
 	if (exit != SQLITE_OK) {
-		cerr << "Error in insertData function." << endl;
+		std::cerr << "Error in insertData function." << std::endl;
 		sqlite3_free(messageError);
 	}
 	else
-		cout << "Records inserted Successfully!" << endl;
+		std::cout << "Records inserted Successfully!" << std::endl;
 
 	return 0;
-}
+
+} //insertData
 
 
 
 
 
 
-int DatabaseConnection::updateData(const char* s) {
+int DatabaseConnection::updateData(const char* s, std::string sql) {
 
 	sqlite3* DB;
 	char* messageError;
 
-	string sql("UPDATE FERRIES SET PRICE = 25.00 WHERE DATE = '01/12/2023'");
 
 	int exit = sqlite3_open(s, &DB);
 	/* An open database, SQL to be evaluated, Callback function, 1st argument to callback, Error msg written here */
 	exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &messageError);
 	if (exit != SQLITE_OK) {
-		cerr << "Error in updateData function." << endl;
+		std::cerr << "Error in updateData function." << std::endl;
 		sqlite3_free(messageError);
 	}
 	else
-		cout << "Records updated Successfully!" << endl;
+		std::cout << "Records updated Successfully!" << std::endl;
 
 	return 0;
-}
+
+} // updateData
 
 
 
 
 
 
-int DatabaseConnection::deleteData(const char* s) {
+int DatabaseConnection::deleteData(const char* s, std::string sql) {
 
 	sqlite3* DB;
 	char* messageError;
 
-	string sql = "DELETE FROM FERRIES WHERE DATE = '01/23/2023';";
 
 	int exit = sqlite3_open(s, &DB);
 	/* An open database, SQL to be evaluated, Callback function, 1st argument to callback, Error msg written here */
 	exit = sqlite3_exec(DB, sql.c_str(), NULL, 0, &messageError);
 	if (exit != SQLITE_OK) {
-		cerr << "Error in deleteData function." << endl;
+		std::cerr << "Error in deleteData function." << std::endl;
 		sqlite3_free(messageError);
 	}
 	else
-		cout << "Records deleted Successfully!" << endl;
+		std::cout << "Records deleted Successfully!" << std::endl;
 
 	return 0;
-}
+
+} // deleteData
 
 
 
 
 
-int DatabaseConnection::selectData(const char* s) {
+int DatabaseConnection::selectData(const char* s, std::string sql) {
 
 	sqlite3* DB;
 	char* messageError;
 
-	string sql = "SELECT * FROM FERRIES;";
 
 	int exit = sqlite3_open(s, &DB);
 	/* An open database, SQL to be evaluated, Callback function, 1st argument to callback, Error msg written here*/
 	exit = sqlite3_exec(DB, sql.c_str(), callback, NULL, &messageError);
 
 	if (exit != SQLITE_OK) {
-		cerr << "Error in selectData function." << endl;
+		std::cerr << "Error in selectData function." << std::endl;
 		sqlite3_free(messageError);
 	}
 	else
-		cout << "Records selected Successfully!" << endl;
+		std::cout << "Records selected Successfully!" << std::endl;
 
 	return 0;
-}
+
+} // selectData
+
 
 
 
@@ -181,10 +167,11 @@ int DatabaseConnection::callback(void* NotUsed, int argc, char** argv, char** az
 
 	for (int i = 0; i < argc; i++) {
 		// column name and value
-		cout << azColName[i] << ": " << argv[i] << endl;
+		std::cout << azColName[i] << ": " << argv[i] << std::endl;
 	}
 
-	cout << endl;
+	std::cout << std::endl;
 
 	return 0;
-}
+
+} // callback
