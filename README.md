@@ -1,3 +1,3 @@
-# FortMyersFerries
+# Fort Myers Ferries
 
-Local Ferry Ticketing System
+An Android, IOS, and web app to acquire and track reservations for local ferries (Theoretical). Being converted to Flutter.
